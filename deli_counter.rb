@@ -15,12 +15,8 @@ def line(katz_deli)
   end
 end
 
-def take_a_number(current_line, name)
-  katz_deli = []
-  number = 1 
-  current_line.each do |name|
-  katz_deli.push("Welcome, #{name}. You are number #{number} in line.")
-  number += 1 
-  end
-  puts ""
+def take_a_numbern 
+  current_line.push(name) 
+  puts "Welcome, #{name}. You are number #{current_line.size} in line."
+  
 end  
