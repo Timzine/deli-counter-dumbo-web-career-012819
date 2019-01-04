@@ -29,6 +29,6 @@ def now_serving(current_line)
    
     current_line.shift(name)
   end
-    puts "currently serving #{name}."
+    return "currently serving #{name}."
     
 end   
