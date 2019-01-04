@@ -29,7 +29,7 @@ def now_serving(current_line)
     return current_line
   else
     current_line.shift
-    puts "currently serving #{name}."
+    puts "Currently serving #{name}."
     return current_line
   end
 end
