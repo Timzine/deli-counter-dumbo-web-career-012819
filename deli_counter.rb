@@ -20,3 +20,7 @@ def take_a_number(current_line, name)
   puts "Welcome, #{name}. You are number #{current_line.size} in line."
   
 end  
+
+def now_serving(current_line)
+  if current_line.length == 0 
+end   
